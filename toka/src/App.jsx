@@ -1,9 +1,13 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Layout } from './Components/Layout/Layout';
 
 function App() {
   return (
     <div>
-      <h1 className='text-3xl text-amber-400'>Hi</h1>
+      <BrowserRouter>
+        <Layout />
+      </BrowserRouter>
     </div>
   )
 }
