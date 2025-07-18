@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Navbar({menuOpen, setMenuOpen}) {
+
+  useEffect(() =>{
+    document.body.style.overflow = menuOpen ? 'hidden' : '';
+  }, [menuOpen]);
+  
     const navLinks = [
         {
             name: 'Home',
