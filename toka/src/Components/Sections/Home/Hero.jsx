@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <main className='relative top-9'>
+    <main className='relative top-13'>
       <div className="grid grid-cols-1">
         <h1 className="text-2xl">
           Welcome to the Hero Section
