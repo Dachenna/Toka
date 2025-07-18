@@ -3,7 +3,7 @@ import Hero from './Hero'
 
 function Home() {
   return (
-    <section>
+    <section className='relative'>
       <Hero />
     </section>
   )
