@@ -7,3 +7,9 @@ html, body{
     color: #f3f4f7;
     background: linear-gradient(to right,#4C214B, #201C2D );
 }
+
+.box-shadow-style :hover{
+    box-shadow: 0 0 3px rgba(144, 90, 201, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    transform: scale(1.05);
+}

@@ -14,14 +14,15 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-gray-400 mb-8">
             Our marketplace has 2M+ works of popular artists around the world.
           </p>
-          <button className="bg-[#8f5cff] hover:bg-[#a084fa] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition">
+          <button className="bg-[#8f5cff] hover:bg-[#493868] text-white font-semibold px-8 py-3 rounded-full shadow-lg transition box-shadow-style">
             Explore Now
           </button>
         </div>
         {/* Right Side - Placeholder for image/video */}
         <div className="flex-1 flex items-center justify-center min-h-[300px]">
           <div className="w-full h-[300px] md:h-[400px] bg-black rounded-lg shadow-lg">
-            <img src="" alt="" />
+            <img src='./NFT.png'
+              className='w-full h-[400px]'/>
           </div>
         </div>
       </div>
